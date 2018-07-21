@@ -1,0 +1,16 @@
+{
+  "name": "[NAME]",
+  "version": "[VERSION]",
+  "description": "[DESCRIPTION]",
+  "main": "index.js",
+  "author": "[AUTHOR]",
+  "scripts": {
+    "start": "sam local start-api"
+  },
+  "dependencies": {
+    "aws-serverless-express": "3.2.0",
+    "body-parser": "1.18.3",
+    "cors": "2.8.4",
+    "express": "4.16.3"
+  }
+}
