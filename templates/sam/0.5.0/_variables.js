@@ -10,7 +10,7 @@ const validate = (regex, errorMessage) => {
 module.exports = [
   {
     name: "name",
-    validate: validate(/^[a-z\-]*$/, "Name can only consist of lowercase letters and dashes."),
+    validate: validate(/^[a-z\-\d]*$/, "Name can only consist of lowercase letters, numbers, and dashes."),
     message: `Enter the name of your project, leave blank to use the current directory: (${path.basename(process.cwd())})`,
   },
   {
